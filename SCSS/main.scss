@@ -1,0 +1,95 @@
+
+header{
+    nav{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        h1{
+            height: 40px;
+            width: 60px;
+            font-size: 35px;
+            margin: 40px;
+        }
+        .desc-nav{
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style: none;
+            li{
+            color: indianred;
+            margin: 30px;
+            }
+        }
+    }
+}
+
+main{
+    .primertitulo{
+        color: black;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .imagen{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        margin-top: 70px;
+        margin-left: 40px;
+        margin-right: 40px;
+    
+        img{
+        transition: 0.3s;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        margin-bottom: 20px;
+        }
+        &:hover{
+        transform: scale(1.05);
+        }
+        }
+    .nosotros{
+        background-color: darkorange;
+        .descripcion{
+        font-size: 25px;
+        font-style: inherit;
+        color: indianred;
+        }
+        p{
+        font-style: italic;
+        color: indianred;
+        }
+    }   
+}
+
+footer{
+    .-footer{
+        background-color: black;
+        .secciones{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            color: indianred;
+        
+        }
+        .secciones-footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: end;
+            color: indianred;
+            list-style: none;
+            
+        }
+    }
+}
